@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+    </ul>
+</nav>
+
+<main>
+    <section id="home">
+        <img src="doodle-person.png" alt="Doodle of a Person">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+        <button id="contactBtn">Contact Me</button>
+    </section>
+    <section id="details">
+        <div class="card" id="education">
+            <h2>Education</h2>
+            <p>Dummy content...</p>
+            <button>Show more</button>
+        </div>
+        <div class="card" id="experience">
+            <h2>Experience</h2>
+            <p>Dummy content...</p>
+            <button>Show more</button>
+        </div>
+        <div class="card" id="projects">
+            <h2>Projects</h2>
+            <p>Dummy content...</p>
+            <button>Show more</button>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2023 Your Name</p>
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact Me</li>
+    </ul>
+</footer>
+
+<script>
+    document.getElementById('contactBtn').addEventListener('click', function() {
+    window.location.href = '#contact';
+});
+
+</script>
+</body>
+</html>
